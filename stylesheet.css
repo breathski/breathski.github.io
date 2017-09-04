@@ -22,14 +22,14 @@ a {
 }
 
 a:hover {
-	color: #5e00ff;
+	cursor: url('files/Cursor.png'), auto;
 }
 
 .icon
 {
 	position: absolute;
-	top: 100px;
-	right: 300px;
+	top: 140px;
+	right: 280px;
 	z-index: 1;
 	width: 300px;
 	height: auto;
@@ -43,5 +43,4 @@ a:hover {
 	bottom: 0px;
 	right: 0px;
 	background: transparent url('files/PDF_Blue_Hover.png') no-repeat;
-	cursor: pointer;
 }
