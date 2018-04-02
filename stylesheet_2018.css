@@ -1,0 +1,22 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #000;
+	overflow: hidden;
+}
+
+h1 {
+	padding: 20px;
+}
+
+a {
+	font-family: "Courier New", Courier, monospace;
+	color: #fff;
+	font-size: 20px;
+	font-weight:normal;
+	text-align: center;
+	text-decoration: none;
+	width: 300px;
+	height: auto;
+	
+}
