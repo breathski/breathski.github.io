@@ -11,7 +11,7 @@ h1 {
 
 a {
 	font-family: "Courier New", Courier, monospace;
-	color: #000;
+	color: #fff;
 	font-size: 20px;
 	font-weight:normal;
 	text-align: center;
@@ -19,10 +19,6 @@ a {
 	width: 300px;
 	height: auto;
 	
-}
-
-a:hover {
-	cursor: url('files/Cursor.png'), auto;
 }
 
 .icon
