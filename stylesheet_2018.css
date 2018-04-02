@@ -28,7 +28,6 @@ a {
 	
 }
 
-a.hover {
-	color: red;
-	
+a:hover {
+	color: hotpink;
 }
