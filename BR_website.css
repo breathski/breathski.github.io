@@ -1,0 +1,63 @@
+body {
+	background: white;
+	margin: 0px;
+}
+
+p {
+	font-size: 20px;
+	line-height: 23px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 18px;
+	line-height: 23px;
+	margin: 0px;
+	font-weight:normal;
+	padding: 0px 0px 32px 0px
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 23px;
+	margin: 0px;
+	font-weight:normal;
+	padding: 0px 0px 32px 0px
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 23px;
+	margin: 0px;
+	font-weight:normal;
+	padding: 0px 0px 32px 0px
+}
+
+#container {
+	width: 612px;
+    margin: 0px auto;
+    padding: 36px 36px 0px 36px;
+}
+
+#container:hover {
+
+}
+
+.section {
+	padding: 0px 0px 36px 0px
+}
+
+#intro {
+}
+
+#past {
+}
+
+#projects {
+}
+
+#contact {
+	position:absolute;
+	bottom:0;
+	padding: 0px 0px 36px 0px;
+}
