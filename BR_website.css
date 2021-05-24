@@ -1,41 +1,41 @@
+
+
 body {
 	background: white;
 	margin: 0px;
+	font-family: 'Freckle Face', cursive;
 }
 
 p {
-	font-size: 20px;
-	line-height: 23px;
+	font-size: 38px;
+	line-height: 42px;
 	margin: 0px;
+	letter-spacing: 1px;
 }
 
 h2 {
-	font-size: 18px;
-	line-height: 23px;
+	font-size: 38px;
+	line-height: 42px;
 	margin: 0px;
 	font-weight:normal;
-	padding: 0px 0px 32px 0px
+	letter-spacing: 1px;
 }
 
-h3 {
-	font-size: 18px;
-	line-height: 23px;
-	margin: 0px;
-	font-weight:normal;
-	padding: 0px 0px 32px 0px
+.underline span {
+  display: inline-block;
 }
 
-h4 {
-	font-size: 20px;
-	line-height: 23px;
-	margin: 0px;
-	font-weight:normal;
-	padding: 0px 0px 32px 0px
+.underline span::after
+{
+  content: '';
+  height: 5px;
+  background: blue;
+  border-radius: 5px;
+  display: block
 }
 
 #container {
-	width: 612px;
-    margin: 0px auto;
+	width: 1010px;
     padding: 36px 36px 0px 36px;
 }
 
@@ -61,3 +61,9 @@ h4 {
 	bottom:0;
 	padding: 0px 0px 36px 0px;
 }
+
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+
