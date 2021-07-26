@@ -1,69 +1,119 @@
-
-
 body {
-	background: white;
+	background: oldlace;
 	margin: 0px;
-	font-family: 'Freckle Face', cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-	font-size: 38px;
-	line-height: 42px;
+	font-size: 18px;
+	line-height: 24px;
 	margin: 0px;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
+	word-spacing: -1px;
+	color: black;
+}
+
+h1	{
+	font-size: 18px;
+	line-height: 0px;
+	font-weight: normal;
+	padding: 0px 0px 20px 0px;
+	letter-spacing: .5px;
+	word-spacing: -1px;
+	color: chocolate;
 }
 
 h2 {
-	font-size: 38px;
-	line-height: 42px;
-	margin: 0px;
-	font-weight:normal;
-	letter-spacing: 1px;
+	font-size: 18px;
+	line-height: 0px;
+	font-weight: normal;
+	padding: 0px 0px 10px 20px;
+	letter-spacing: .5px;
+	word-spacing: -1px;
+	color: chocolate;
 }
 
-.underline span {
-  display: inline-block;
+.section {
+	padding: 0px 0px 20px 0px;
 }
 
-.underline span::after
-{
-  content: '';
-  height: 5px;
-  background: blue;
-  border-radius: 5px;
-  display: block
+.lists {
+	padding: 0px 0px 40px 0px;
+	line-height: 30px;
 }
+
 
 #container {
-	width: 1010px;
-    padding: 36px 36px 0px 36px;
+    padding: 20px 20px 0px 20px;
 }
 
 #container:hover {
 
 }
 
-.section {
-	padding: 0px 0px 36px 0px
-}
-
-#intro {
-}
-
-#past {
-}
-
-#projects {
-}
-
 #contact {
-	position:absolute;
-	bottom:0;
-	padding: 0px 0px 36px 0px;
+	padding: 0px 0px 240px 0px;
 }
 
 a:link {
   text-decoration: none;
-  color: blue;
+  color: orangered;
 }
+
+a:visited {
+  color: orangered;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+ol {
+	list-style-type: decimal-leading-zero;
+	list-style-position: inside;
+	font-size: 18px;
+	margin: 0px 0px 0px 0px;
+	margin-block-start: 0px;
+  margin-block-end: 0px;
+	padding: 0px 0px 0px 20px;
+}
+
+ol li {
+	padding: 5px 10px 5px 10px;
+	background: oldlace;
+	margin: 0px;
+  width: 800px;
+}
+
+li:nth-child(even) { 
+	background: blanchedalmond; 
+}
+
+li.reread {
+	color: orchid;
+}
+
+.key {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 0px 40px 0px;
+}
+
+.dot {
+  height: 16px;
+  width: 16px;
+  background-color: orchid;
+  border-radius: 50%;
+  display: inline-block;
+	margin: 0px 0px 0px 20px;
+}
+
+#keytext {
+	color: orchid;
+	margin: 0px 0px 0px 2px;
+}
+
+
+
+
 
