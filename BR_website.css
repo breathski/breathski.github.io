@@ -1,12 +1,13 @@
 body {
-	background: oldlace;
-	margin: 0px;
+	background: white;
+	margin: 0px 0px 20px 0px;
   font-family: Arial, Helvetica, sans-serif;
+  width: 1200px;
 }
 
 p {
 	font-size: 18px;
-	line-height: 24px;
+	line-height: 26px;
 	margin: 0px;
 	letter-spacing: .5px;
 	word-spacing: -1px;
@@ -20,17 +21,16 @@ h1	{
 	padding: 0px 0px 20px 0px;
 	letter-spacing: .5px;
 	word-spacing: -1px;
-	color: chocolate;
+	color: #0072ff;
 }
 
 h2 {
 	font-size: 18px;
 	line-height: 0px;
 	font-weight: normal;
-	padding: 0px 0px 10px 20px;
+	padding: 0px 0px 20px 20px;
 	letter-spacing: .5px;
-	word-spacing: -1px;
-	color: chocolate;
+	color: #0072ff;
 }
 
 .section {
@@ -38,8 +38,8 @@ h2 {
 }
 
 .lists {
-	padding: 0px 0px 40px 0px;
-	line-height: 30px;
+	padding: 20px 0px 20px 0px;
+	line-height: 26px;
 }
 
 
@@ -52,16 +52,16 @@ h2 {
 }
 
 #contact {
-	padding: 0px 0px 240px 0px;
+	padding: 0px 0px 480px 0px;
 }
 
 a:link {
   text-decoration: none;
-  color: orangered;
+  color: #61e400;
 }
 
 a:visited {
-  color: orangered;
+  color: #61e400;
 }
 
 a:hover {
@@ -69,7 +69,7 @@ a:hover {
 }
 
 ol {
-	list-style-type: decimal-leading-zero;
+	list-style-type: none;
 	list-style-position: inside;
 	font-size: 18px;
 	margin: 0px 0px 0px 0px;
@@ -79,18 +79,13 @@ ol {
 }
 
 ol li {
-	padding: 5px 10px 5px 10px;
-	background: oldlace;
 	margin: 0px;
   width: 800px;
 }
 
-li:nth-child(even) { 
-	background: blanchedalmond; 
-}
 
 li.reread {
-	color: orchid;
+	color: black;
 }
 
 .key {
