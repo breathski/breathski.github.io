@@ -29,7 +29,7 @@ h2 {
 	font-weight: normal;
 	padding: 0px 0px 0px 20px;
 	letter-spacing: .5px;
-	color: sandybrown;
+	color: sienna;
 }
 
 .section {
@@ -62,15 +62,15 @@ h2 {
 
 a:link {
   text-decoration: none;
-  color: sandybrown;
+  color: sienna;
 }
 
 a:visited {
-  color: sandybrown;
+  color: sienna;
 }
 
 a:hover {
-  color: sienna;
+  color: darksalmon;
 }
 
 ol {
