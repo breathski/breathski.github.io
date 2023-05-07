@@ -1,148 +1,17 @@
 body {
-	background: white;
-	margin: 0px 0px 20px 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
+    zoom: 2;
 }
 
-p {
-	font-size: 28px;
-	line-height: 1.2;
-	margin: 0px;
-	letter-spacing: 0px;
-	word-spacing: -1px;
-	color:Black;
+table, th, td {
+  border: 1px solid;
+  margin-bottom: 16px;
+	background-color:white;
 }
 
-h2 {
-	font-size: 28px;
-	line-height: 1.2;
-	font-weight: normal;
-	padding: 0px 0px 0px 20px;
-	letter-spacing: .5px;
-	color:blue;
+th {
+	background-color: yellow;
 }
 
-.lists{
-	padding: 0px 0px 0px 20px;
-}
-
-.section {
-	padding: 0px 0px 20px 0px;
-}
-
-#container {
-  padding: 20px 20px 0px 20px;
-  height: 100%;
-}
-
-#container:hover {
-}
-
-#contact {
-	padding: 0px 0px 80px 0px;
-}
-
-#bookheader {
-	bottom: 20px;
-	position: absolute;
-}
-
-a:link {
-  text-decoration: none;
-  color: blue;
-}
-
-a:visited {
-  color: blue;
-}
-
-a:hover {
-  color: Black;
-}
-
-.keymain {
-	margin: 0px 0px 0px 20px;
-}
-
-.key {
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0px 0px 80px 0px;
-}
-
-.neutraldot {
-  height: 24px;
-  width: 24px;
-  background-color: greenyellow;
-  border-radius: 50%;
-  display: inline-block;
-	vertical-align: middle;
-}
-
-.likeddot {
-  height: 24px;
-  width: 24px;
-  background-color: yellowgreen;
-  border-radius: 50%;
-  display: inline-block;
-	vertical-align: middle;
-}
-
-.loveddot {
-  height: 24px;
-  width: 24px;
-  background-color: limegreen;
-  border-radius: 50%;
-  display: inline-block;
- 	vertical-align: middle;
-}
-
-.trashdot {
-  height: 24px;
-  width: 24px;
-  background-color: olivedrab;
-  border-radius: 50%;
-  display: inline-block;
- 	vertical-align: middle;
-}
-
-.rereaddot {
-  height: 24px;
-  width: 24px;
-  background-color: darkgreen;
-  border-radius: 50%;
-  display: inline-block;
- 	vertical-align: middle;
-}
-
-#neutral{
-  color: greenyellow;
-	margin: 0px 20px 0px 0px;
-}
-
-#liked{
-	color: yellowgreen;
-	margin: 0px 20px 0px 0px;
-}
-
-#loved {
-	color: limegreen;
-	margin: 0px 20px 0px 0px;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#trash {
-	color: olivedrab;
-	margin: 0px 20px 0px 0px;
-}
-
-#reread {
-	color: darkgreen;
-	margin: 0px 20px 0px 0px;
-}
-
-#grey {
-	color: blue;
+table {
+	width: 75%;
 }
