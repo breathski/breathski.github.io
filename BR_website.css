@@ -27,6 +27,10 @@ table, th, td {
 	background-color:white;
 }
 
+th {
+	background-color: yellow;
+}
+
 table {
 	width: 100%;
 }
