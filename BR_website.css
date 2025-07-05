@@ -18,10 +18,10 @@ table {
 
 @media only screen 
     and (device-width: 375px) 
-    and (device-height: 812px) 
-{
-body {
-    zoom: 1;
+    and (device-height: 812px) {
+
+p {
+	text-size: 24px;
 }
 
 table, th, td {
@@ -31,7 +31,7 @@ table, th, td {
 }
 
 th {
-	background-color: yellow;
+	background-color: grey;
 }
 
 table {
